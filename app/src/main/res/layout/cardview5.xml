@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="wrap_content"
+    android:layout_margin="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/coment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comentarios(4)"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/profile2"
+            android:layout_below="@+id/coment"/>
+
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/profile2"
+            android:layout_marginBottom="13dp"
+            android:layout_marginLeft="19dp"
+            android:layout_toRightOf="@+id/profile"
+            android:text="No solo sobrevivi 500 años Sino que también.." />
+
+        <ImageView
+            android:id="@+id/profile2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/profile2"
+            android:layout_below="@+id/profile"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/texto1"
+            android:layout_alignStart="@+id/texto1"
+            android:layout_below="@+id/texto1"
+            android:layout_marginTop="14dp"
+            android:text="No solo sobrevive 500 años Sino que también." />
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

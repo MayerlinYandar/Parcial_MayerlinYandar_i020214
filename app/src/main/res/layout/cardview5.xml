@@ -49,7 +49,7 @@
             android:layout_alignStart="@+id/texto1"
             android:layout_below="@+id/texto1"
             android:layout_marginTop="14dp"
-            android:text="No solo sobrevive 500 años Sino que también." />
+            android:text="No solo sobbrevive 500 años Sino que también." />
 
 
 
